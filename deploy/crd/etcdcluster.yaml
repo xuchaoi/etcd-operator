@@ -1,0 +1,7 @@
+apiVersion: etcd.test.io/v1alpha1
+kind: EtcdCluster
+metadata:
+  name: demo
+spec:
+  size: 3
+  image: registry.aliyuncs.com/k8sxio/etcd:3.4.3-0 
